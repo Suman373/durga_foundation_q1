@@ -6,7 +6,7 @@ const StudentCard = ({ student,blockStudent,index }) => {
     return (
         <div className='student-card' key={index}>
             <div className="header">
-                <span className='activity-status-icon' id={index%2===0 ? "active": "inactive"}><FaCircleDot/></span>
+                <span className='activity-status-icon' id={index %2===0 ? "active": "inactive"}><FaCircleDot/></span>
                 <img src={student?.image} alt="user-pfp" />
                 <div>
                     <p><b>{student?.firstName} {student?.lastName}</b></p>
