@@ -1,0 +1,74 @@
+.dashboard-container{
+    min-height: 200vh;
+    width: 100vw;
+    background: var(--background-color);
+}
+.dashboard-container>header{
+    height: 5rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--brand);
+    /* background-color: var(--glass);
+    backdrop-filter:blur(20px); */
+}
+.search-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 0 0.8rem;
+    border-radius: 0.8rem;
+}
+input.search-student{
+    height: 2.5rem;
+    width: 18rem;
+    padding: 0.6rem;
+    text-indent: 0.5rem;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+.user-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.user-icon>img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+    background: white;
+}
+
+.student-card-wrapper{
+
+}
+
+.student-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.container-options{
+    display: flex;
+    gap:0.8rem;
+}
+.container-options a{
+    padding: 0.4rem 0.7rem;
+    background-color: var(--glass);
+}
+.container-options a#selected{
+    background-color: var(--brand);
+    border-radius: 0.8rem;
+    color: white;
+}
