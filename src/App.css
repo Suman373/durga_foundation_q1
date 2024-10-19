@@ -10,8 +10,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--brand);
-    /* background-color: var(--glass);
-    backdrop-filter:blur(20px); */
 }
 .search-field{
     display: flex;
@@ -39,6 +37,7 @@ input:focus {
     justify-content: center;
     align-items: center;
     gap:1rem;
+    color: white;
 }
 .user-icon>img{
     height: 3rem;
@@ -49,15 +48,15 @@ input:focus {
     background: white;
 }
 
-.student-card-wrapper{
-
-}
-
-.student-card-container{
+.student-cards-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+}
+.student-cards-container > h1{
+    font-weight: bolder;
+    font-size: 2rem;
 }
 .container-options{
     display: flex;
@@ -71,4 +70,17 @@ input:focus {
     background-color: var(--brand);
     border-radius: 0.8rem;
     color: white;
+}
+
+.card-flexbox{
+    min-height: fit-content;
+    width: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding:1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
