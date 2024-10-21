@@ -9,9 +9,7 @@
 ## Tech Stack
 
 **Client:** React, CSS, Axios, React Icons
-
-**Server:** Node, Express
-
+**API** REST
 ### Live link : [Visit](https://student-dashboard-v1.vercel.app)
 
 ## Run Locally
